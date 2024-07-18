@@ -17,6 +17,20 @@
     padding: 5px 10px;
     cursor: pointer;
 }
+.common-heading{
+    color: #FFF;
+font-family: Inter;
+font-size: 78px;
+font-style: normal;
+font-weight: 900;
+}
+.common-paragraph{
+    color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
 /* Navbar */
 header{
     background-color: #212121;
@@ -40,6 +54,22 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400; 
 padding: 10px 0;
+}
 
+/* ----------------------------Banner----------------------------- */
+.banner{
+    border: 2px solid red;
+      max-width: 850px;   
+      margin: 0 auto;  
+      display: flex;    
+      justify-content: space-between;
+      align-items: center;
+}
+.banner-description{
+    /* margin-left: 50px; */
+
+}
+/* ------------------------small screen---------------------------- */
+@media screen and (max-width: 576px){
 
 }
