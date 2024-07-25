@@ -142,7 +142,10 @@ header {
   max-width: 350px;
   margin-right: 50px;
 }
-/* BMI Calculator */
+/* -----------------BMI Calculator -------------------------------*/
+.bmi-section{
+    margin-bottom: 50px;
+}
 .bmi-title-paragraph {
   max-width: 600px;
   margin: 0 auto 40px auto;
@@ -167,13 +170,36 @@ font-family: Inter;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 120%; /* 16.8px */
+
 }
 table th{
     text-align: center;
 }
 table, th, td {
-    border: 1px dotted #FFFFFF  }
+    padding: 15px;
+    border: 1px dotted #FFFFFF ; 
+    border-collapse: collapse;
+}
+.bmi-table-paragraph{
+    color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+}
+.bmi-form{
+    max-width: 350px;
+}
+.bmi-form input{
+    color: #fff;
+   background-color: rgb(28, 27, 27);
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border: none;
+   border-radius: 5px;
+   padding: 5px;
+}
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
 }
