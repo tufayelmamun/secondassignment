@@ -19,28 +19,27 @@ body {
   cursor: pointer;
 }
 .common-heading {
-    color: #fff;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    
-    margin-bottom: 10px;
-  }
-  .common-paragraph {
-    color: rgba(255, 255, 255, 0.5);
-   
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    margin-top: 0;
-  }
-  .common-container{
-    max-width: 850px;
-    margin: 10px auto 50px auto;
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
 
-  }
+  margin-bottom: 10px;
+}
+.common-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 0;
+}
+.common-container {
+  max-width: 850px;
+  margin: 10px auto 50px auto;
+}
 /* Navbar */
 header {
   background-color: #212121;
@@ -104,45 +103,77 @@ header {
 }
 
 /* Change my habits */
-.habit-box-heading{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-      text-align: center;
-      margin-bottom: 0;
+.habit-box-heading {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
 }
-.habit-box-detail{
+.habit-box-detail {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.habit-box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.habit-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Run Extra mile */
+
+.run-box {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.run-details {
+  max-width: 350px;
+  margin-right: 50px;
+}
+/* BMI Calculator */
+.bmi-title-paragraph {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+.bmi-table-heading {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+}
+.BMI-table{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+table tr{
+    
     color: rgba(255, 255, 255, 0.50);
-text-align: center;
 font-family: Inter;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-
+line-height: 120%; /* 16.8px */
 }
-.habit-box-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+table th{
+    text-align: center;
 }
-.habit-box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* Run Extra mile */
-
-.Run-box{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.run-btn{
-    
-}
+table, th, td {
+    border: 1px dotted #FFFFFF  }
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
 }
