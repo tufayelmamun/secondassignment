@@ -71,8 +71,8 @@ header {
   font-weight: 400;
   padding: 10px 0;
 }
-.hamburger-menu{
-    display: none;
+.hamburger-menu {
+  display: none;
 }
 /* ----------------------------Banner----------------------------- */
 .banner {
@@ -96,20 +96,45 @@ header {
   font-style: normal;
   font-weight: 400;
 }
-.banner-description {
-  /* margin-left: 50px; */
-}
+
 .Download-btn {
   border-radius: 45px;
   padding: 10px 45px;
-  /* opacity: 0.01; */
+  cursor: pointer;
+
   background-color: #000;
   border: none;
   margin-left: 10px;
   color: #fff;
 }
-
-/* Change my habits */
+.banner-img{
+    position: relative;
+}
+.free-workout-videos {
+  width: 100px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: absolute;
+top: 155px;
+right: -10px;
+}
+.video-tutorial{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(48, 48, 48, 0.54);
+backdrop-filter: blur(10px);
+position: absolute;
+padding: 1px 10px;
+bottom: 55px;
+right: 225px;
+}
+/* ---------------------Change my habits ----------------------------------*/
 .habit-box {
   display: flex;
   justify-content: space-between;
@@ -137,7 +162,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-/* Run Extra mile */
+/*------------------------- Run Extra mile -------------------------*/
 
 .run-box {
   padding: 20px;
@@ -247,14 +272,14 @@ footer {
   background-color: #222;
   margin-bottom: 20px;
 }
-.footer-container{
-    display: flex;
-    justify-content: space-between;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
 }
-.footer-container a{
-    display: block;
-    margin: 10px 0;
-    text-decoration: none;
+.footer-container a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
 }
 .footer-main-title {
   color: #e6533c;
@@ -285,26 +310,25 @@ footer {
   font-style: normal;
   font-weight: 400;
 }
-.copy-right-text{
-    text-align: center;
-    color: rgba(255, 255, 255, 0.50);
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-
+.copy-right-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
 }
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
-    .navbar {
-        margin: 0;
-      }
-    .nav-options{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
-    }
+  .navbar {
+    margin: 0;
+  }
+  .nav-options {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
   .banner {
     flex-direction: column;
   }
@@ -332,10 +356,10 @@ font-weight: 400;
   }
   .trainer-container {
     grid-template-columns: repeat(1, 1fr);
-padding: 5px;
+    padding: 5px;
   }
 
-  .footer-container{
+  .footer-container {
     flex-direction: column;
-}
+  }
 }
