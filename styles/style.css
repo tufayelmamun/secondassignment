@@ -163,7 +163,10 @@ right: 225px;
   align-items: center;
 }
 /*------------------------- Run Extra mile -------------------------*/
-
+.run-container{
+    border-radius: 18px;
+background: #222;
+}
 .run-box {
   padding: 20px;
   display: flex;
@@ -176,6 +179,7 @@ right: 225px;
 }
 /* -----------------BMI Calculator -------------------------------*/
 .bmi-section {
+    
   margin-bottom: 50px;
 }
 .bmi-title-paragraph {
@@ -195,6 +199,7 @@ right: 225px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 20px ;
 }
 table tr {
   color: rgba(255, 255, 255, 0.5);
@@ -320,6 +325,10 @@ footer {
 }
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
+    .run-box {
+        padding: 5px;
+       
+      }
   .navbar {
     margin: 0;
   }
@@ -340,6 +349,13 @@ footer {
   }
   .run-box {
     flex-direction: column;
+  }
+  .run-details {
+    margin-right: 0;
+  }
+  #join-now{
+    margin: 0 auto;
+    width: 100%;
   }
   .run-details {
     margin-bottom: 10px;
