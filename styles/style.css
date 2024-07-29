@@ -237,7 +237,7 @@ td {
   border-radius: 5px;
   padding: 5px;
 }
-/* meet our trainer */
+/* ---------------------------meet our trainer---------------------- */
 .main-container {
   position: relative;
 }
@@ -272,7 +272,7 @@ td {
   font-weight: 400;
   margin-top: 0;
 }
-/* Footer */
+/*--------------------- Footer ---------------------------*/
 footer {
   background-color: #222;
   margin-bottom: 20px;
@@ -325,29 +325,28 @@ footer {
 }
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
+    .navbar {
+        padding:0 10px;
+        margin: 0;
+    }
+    .nav-options {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .nav-options {
+        display: none;
+    }
+    .habit-box {
+        flex-direction: column;
+    }
+    
     .run-box {
         padding: 5px;
-       
-      }
-  .navbar {
-    margin: 0;
-  }
-  .nav-options {
-    display: none;
-  }
-  .hamburger-menu {
-    display: block;
-  }
-  .banner {
-    flex-direction: column;
-  }
-  .nav-options {
-    display: none;
-  }
-  .habit-box {
-    flex-direction: column;
-  }
-  .run-box {
     flex-direction: column;
   }
   .run-details {
@@ -377,5 +376,6 @@ footer {
 
   .footer-container {
     flex-direction: column;
+    padding-left: 10px;
   }
 }
