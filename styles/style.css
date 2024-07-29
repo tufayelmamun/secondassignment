@@ -107,8 +107,8 @@ header {
   margin-left: 10px;
   color: #fff;
 }
-.banner-img{
-    position: relative;
+.banner-img {
+  position: relative;
 }
 .free-workout-videos {
   width: 100px;
@@ -117,22 +117,22 @@ header {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   position: absolute;
-top: 155px;
-right: -10px;
+  top: 155px;
+  right: -10px;
 }
-.video-tutorial{
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    align-items: center;
-    border-radius: 12px;
-border: 1px solid rgba(255, 255, 255, 0.10);
-background: rgba(48, 48, 48, 0.54);
-backdrop-filter: blur(10px);
-position: absolute;
-padding: 1px 10px;
-bottom: 55px;
-right: 225px;
+.video-tutorial {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  padding: 1px 10px;
+  bottom: 55px;
+  right: 225px;
 }
 /* ---------------------Change my habits ----------------------------------*/
 .habit-box {
@@ -163,9 +163,9 @@ right: 225px;
   align-items: center;
 }
 /*------------------------- Run Extra mile -------------------------*/
-.run-container{
-    border-radius: 18px;
-background: #222;
+.run-container {
+  border-radius: 18px;
+  background: #222;
 }
 .run-box {
   padding: 20px;
@@ -179,7 +179,7 @@ background: #222;
 }
 /* -----------------BMI Calculator -------------------------------*/
 .bmi-section {
-    background-color: #222; 
+ 
   margin-bottom: 50px;
 }
 .bmi-title-paragraph {
@@ -194,13 +194,16 @@ background: #222;
   font-weight: 900;
   margin-bottom: 20px;
 }
+.bmi-container{
+    background-color: #222;
+}
 .BMI-table {
-
+   
   max-width: 850px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 20px ;
+  padding: 20px;
 }
 table tr {
   color: rgba(255, 255, 255, 0.5);
@@ -248,8 +251,8 @@ td {
   left: 15px;
 }
 .trainer-container {
-    background-color: #222;
-    border-radius: 10px;
+  background-color: #343333;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -259,7 +262,6 @@ td {
   width: 100%;
   height: 210px;
   border-radius: 10px;
-  
 }
 .trainer-name {
   color: #fff;
@@ -275,6 +277,33 @@ td {
   font-style: normal;
   font-weight: 400;
   margin-top: 0;
+}
+/*-------------------Review Container------------------------*/
+.review-section {
+ margin-top: 15px;
+ margin-bottom: 50px;
+  
+}
+.review-container {
+    
+  max-width: 850px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.each-review-container{
+    padding: 10px 0;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /*--------------------- Footer ---------------------------*/
 footer {
@@ -329,36 +358,36 @@ footer {
 }
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
-    header{
-        padding: 10px;
-    }
-    .navbar {
-        margin: 0;
-    }
-    .nav-options {
-        display: none;
-    }
-    .hamburger-menu {
-        display: block;
-    }
-    .banner {
-        flex-direction: column;
-    }
-    .nav-options {
-        display: none;
-    }
-    .habit-box {
-        flex-direction: column;
-    }
-    
-    .run-box {
-        padding: 5px;
+  header {
+    padding: 10px;
+  }
+  .navbar {
+    margin: 0;
+  }
+  .nav-options {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .nav-options {
+    display: none;
+  }
+  .habit-box {
+    flex-direction: column;
+  }
+
+  .run-box {
+    padding: 5px;
     flex-direction: column;
   }
   .run-details {
     margin-right: 0;
   }
-  #join-now{
+  #join-now {
     margin: 0 auto;
     width: 100%;
   }
@@ -374,7 +403,9 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
   }
-
+.review-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .footer-container {
     flex-direction: column;
     padding-left: 10px;
