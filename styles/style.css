@@ -98,18 +98,19 @@ header {
 }
 
 .Download-btn {
+  border: 1px solid #f1f0f0;
   border-radius: 45px;
-  padding: 10px 45px;
+  padding: 5px 45px;
   cursor: pointer;
-
-  background-color: #000;
-  border: none;
+  background-color: #222;
   margin-left: 10px;
   color: #fff;
 }
+
 .banner-img {
   position: relative;
 }
+
 .free-workout-videos {
   width: 100px;
   border-radius: 10px;
@@ -179,7 +180,6 @@ header {
 }
 /* -----------------BMI Calculator -------------------------------*/
 .bmi-section {
- 
   margin-bottom: 50px;
 }
 .bmi-title-paragraph {
@@ -194,11 +194,10 @@ header {
   font-weight: 900;
   margin-bottom: 20px;
 }
-.bmi-container{
-    background-color: #222;
+.bmi-container {
+  background-color: #222;
 }
 .BMI-table {
-   
   max-width: 850px;
   margin: 0 auto;
   display: flex;
@@ -230,7 +229,7 @@ td {
   font-weight: 400;
 }
 .bmi-form {
-  max-width: 350px;
+  width: 350px;
 }
 .bmi-form input {
   color: #fff;
@@ -280,12 +279,10 @@ td {
 }
 /*-------------------Review Container------------------------*/
 .review-section {
- margin-top: 15px;
- margin-bottom: 50px;
-  
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 .review-container {
-    
   max-width: 850px;
   margin: 0 auto;
   border-radius: 10px;
@@ -296,14 +293,14 @@ td {
   gap: 10px;
   padding: 5px;
 }
-.each-review-container{
-    padding: 10px 0;
-    background-color: #222;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.each-review-container {
+  padding: 10px 0;
+  background-color: #222;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /*--------------------- Footer ---------------------------*/
 footer {
@@ -359,13 +356,12 @@ footer {
 /* ------------------------small screen---------------------------- */
 @media screen and (max-width: 576px) {
   header {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
   }
   .navbar {
     margin: 0;
   }
   .nav-options {
-    display: none;
   }
   .hamburger-menu {
     display: block;
@@ -403,7 +399,65 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
   }
-.review-container {
+  .review-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-container {
+    flex-direction: column;
+    padding-left: 10px;
+  }
+}
+
+/*-----------------------------Medium Device-------------------------*/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  header {
+    padding: 10px 10px 0 10px;
+  }
+  .navbar {
+    margin: 0;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .nav-options {
+    display: none;
+  }
+  .habit-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .run-box {
+    padding: 15px;
+  }
+  .run-details {
+    margin-right: 25px;
+  }
+  #join-now {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .run-details {
+    margin-bottom: 10px;
+  }
+
+  .BMI-table {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .bmi-form {
+    width: 100%;
+  }
+
+  .trainer-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+  .review-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .footer-container {
