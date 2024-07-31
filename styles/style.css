@@ -178,7 +178,7 @@ header {
   max-width: 350px;
   margin-right: 50px;
 }
-/* -----------------BMI Calculator -------------------------------*/
+/*----------------------BMI Calculator -------------------------------*/
 .bmi-section {
   margin-bottom: 50px;
 }
@@ -231,16 +231,9 @@ td {
 .bmi-form {
   width: 350px;
 }
-.bmi-form input {
-  color: #fff;
-  background-color: rgb(28, 27, 27);
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-}
-/* ---------------------------meet our trainer---------------------- */
+
+
+/* ---------------------------meet our trainer-------------------------*/
 .main-container {
   position: relative;
 }
@@ -302,7 +295,7 @@ td {
   justify-content: center;
   align-items: center;
 }
-/*--------------------- Footer ---------------------------*/
+/*--------------------------Footer-------------------------------*/
 footer {
   background-color: #222;
   margin-bottom: 20px;
@@ -361,8 +354,7 @@ footer {
   .navbar {
     margin: 0;
   }
-  .nav-options {
-  }
+  
   .hamburger-menu {
     display: block;
   }
