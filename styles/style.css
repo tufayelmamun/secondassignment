@@ -231,7 +231,12 @@ td {
 .bmi-form {
   width: 350px;
 }
-
+.bmi-calculator input,
+select {
+  margin-bottom: 10px;
+  background-color: #222;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* ---------------------------meet our trainer-------------------------*/
 .main-container {
@@ -270,10 +275,7 @@ td {
   font-weight: 400;
   margin-top: 0;
 }
-.bmi-calculator input, select{
-margin-bottom: 10px;
-}
-/*-------------------Review Container------------------------*/
+/* ---------------------Review Container-------------------------- */
 .review-section {
   margin-top: 15px;
   margin-bottom: 50px;
@@ -357,7 +359,7 @@ footer {
   .navbar {
     margin: 0;
   }
-  
+
   .hamburger-menu {
     display: block;
   }
@@ -444,7 +446,7 @@ footer {
     flex-direction: column;
     margin: 0 auto;
   }
-  .bmi-form { 
+  .bmi-form {
     width: 100%;
   }
 
