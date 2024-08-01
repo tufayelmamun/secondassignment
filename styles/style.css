@@ -231,13 +231,23 @@ td {
 .bmi-form {
   width: 350px;
 }
+.bmi-calculator {
+  display: flex;
+  justify-content: space-between;
+}
 .bmi-calculator input,
 select {
   margin-bottom: 10px;
-  background-color: #222;
+  background-color: black;
   color: rgba(255, 255, 255, 0.5);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+  width: 100%;
 }
-
 /* ---------------------------meet our trainer-------------------------*/
 .main-container {
   position: relative;
