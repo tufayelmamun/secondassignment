@@ -402,6 +402,10 @@ footer {
     flex-direction: column;
     margin: 0 auto;
   }
+  .bmi-calculator input,
+  select{
+    padding: 5px;
+  }
   .trainer-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
